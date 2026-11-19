@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="u1TGK01wk7ua7DLUgaBE">
-    <mxGraphModel dx="760" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1586" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,8 +112,38 @@
         <mxCell id="cycG4G3_xcY17sgw9jJz-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="User management" vertex="1">
           <mxGeometry height="60" width="120" x="840" y="250" as="geometry" />
         </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-12" edge="1" parent="1" source="cycG4G3_xcY17sgw9jJz-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="NfXi2KBi0pklWJgV92Xu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cycG4G3_xcY17sgw9jJz-44" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;what POS Interface can Do&lt;br&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;*Add Item by name&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;*Add item by barcode reader(phone)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;*item can Add to cart&lt;/div&gt;&lt;div&gt;*cart item can change qunatity&lt;/div&gt;&lt;div&gt;*cart item can add discount&lt;/div&gt;&lt;div&gt;*can add discount for hall bill&amp;nbsp;&lt;/div&gt;&lt;div&gt;*Cart item can remove if want&lt;/div&gt;&lt;div&gt;*Add custom item that not in the item list&lt;/div&gt;&lt;div&gt;*hold button can hold bill without lossing it&lt;/div&gt;&lt;div&gt;*can save draft mean&amp;nbsp; u can save some item list and add all them in just one click&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="280" width="340" x="680" y="990" as="geometry" />
+          <mxGeometry height="280" width="340" x="560" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Pos Main Tab&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;*Bill Button&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;*Add Discount button&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;*Add Hold button&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;*Add Save Draft button&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;*Add custom item button&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="180" x="640" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-9" edge="1" parent="1" source="NfXi2KBi0pklWJgV92Xu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="NfXi2KBi0pklWJgV92Xu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Bill Button&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;*save bill to pdf and ask to where it need to save&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="940" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Hold Button&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;*can save one bill if customer need time to pay and u can skip him and serve to next one&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="130" width="220" x="890" y="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-6" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Save draft button&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;*save bill template that u can use it later&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="170" width="250" x="280" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-10" edge="1" parent="1" source="NfXi2KBi0pklWJgV92Xu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="NfXi2KBi0pklWJgV92Xu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-7" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Add Custom item&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;*Open in new tab and ask item name ,is item&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;quantity&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;Kg,ml,etc..,,ask discount.&lt;br&gt;&lt;br&gt;after press enter it add to bill&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="220" x="570" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-8" edge="1" parent="1" source="NfXi2KBi0pklWJgV92Xu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="NfXi2KBi0pklWJgV92Xu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfXi2KBi0pklWJgV92Xu-11" edge="1" parent="1" source="NfXi2KBi0pklWJgV92Xu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.956;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="NfXi2KBi0pklWJgV92Xu-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
