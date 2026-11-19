@@ -22,7 +22,8 @@ public class Main {
 //       close the lording screen
        l.dispose();
         
-       
+       Login login = new Login();
+       login.setVisible(true);
         // TODO code application logic here
     }
     
