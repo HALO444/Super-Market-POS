@@ -37,6 +37,7 @@ public class Login extends javax.swing.JFrame {
         userName = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         loginButton = new javax.swing.JLabel();
+        loginError = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -54,6 +55,11 @@ public class Login extends javax.swing.JFrame {
         password.setText("Password");
         password.setBorder(null);
         password.setSelectionColor(new java.awt.Color(102, 153, 255));
+        password.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                passwordMousePressed(evt);
+            }
+        });
         password.addActionListener(this::passwordActionPerformed);
         jPanel1.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 360, 280, 50));
 
@@ -62,6 +68,11 @@ public class Login extends javax.swing.JFrame {
         userName.setText("Enter User Name");
         userName.setBorder(null);
         userName.setSelectionColor(new java.awt.Color(102, 153, 255));
+        userName.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                userNameMousePressed(evt);
+            }
+        });
         userName.addActionListener(this::userNameActionPerformed);
         jPanel1.add(userName, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 280, 280, 40));
 
@@ -82,6 +93,9 @@ public class Login extends javax.swing.JFrame {
         loginButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/login1.png"))); // NOI18N
         loginButton.setText("jLabel3");
         loginButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                loginButtonMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 loginButtonMouseEntered(evt);
             }
@@ -96,6 +110,9 @@ public class Login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(loginButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 430, 170, 70));
+
+        loginError.setForeground(new java.awt.Color(255, 0, 0));
+        jPanel1.add(loginError, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 220, 220, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Login.png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 1010, 540));
@@ -151,6 +168,33 @@ public class Login extends javax.swing.JFrame {
        loginButton.setIcon(image);
     }//GEN-LAST:event_loginButtonMousePressed
 
+    private void loginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginButtonMouseClicked
+        // TODO add your handling code here:
+        loginError.setText("");
+        String user = userName.getText();
+        String pass = password.getText();
+//        System.out.println(user);
+        boolean isEqualUser = !(user.equals("admin"));
+        boolean isEqualPass = !(pass.equals("1234"));
+        
+        if (isEqualUser && isEqualPass){
+            loginError.setText("UserName or Password is Incorrect");
+            userName.setText("");
+            password.setText("");
+            
+    }
+    }//GEN-LAST:event_loginButtonMouseClicked
+
+    private void userNameMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_userNameMousePressed
+        // TODO add your handling code here:
+        userName.setText("");
+    }//GEN-LAST:event_userNameMousePressed
+
+    private void passwordMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_passwordMousePressed
+        // TODO add your handling code here:
+        password.setText("");
+    }//GEN-LAST:event_passwordMousePressed
+
     /**
      * @param args the command line arguments
      */
@@ -181,6 +225,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel loginButton;
+    private javax.swing.JLabel loginError;
     private javax.swing.JTextField password;
     private javax.swing.JTextField userName;
     // End of variables declaration//GEN-END:variables
