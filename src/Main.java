@@ -19,7 +19,7 @@ public class Main {
 //       sleep 5s
        Thread.sleep(5000);
        System.out.println("1");
-//       cls
+//       close the lording screen
        l.dispose();
         
        
